@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello world!!!");
+		int chi=0;
+		float cun=0;
+		System.out.println("请输入身高：");
+		Scanner in = new Scanner(System.in);
+		chi=in.nextInt();
+		cun=in.nextInt();
+		System.out.println((chi+cun/12)*0.3048);
+	}
+
+}
